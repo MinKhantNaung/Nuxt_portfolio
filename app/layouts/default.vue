@@ -13,3 +13,11 @@
         </main>
     </div>
 </template>
+
+<script setup>
+useHead({
+    // as a string,
+    // where `%s` is replaced with the title
+    titleTemplate: '%s - Min Khant Naung',
+})
+</script>
