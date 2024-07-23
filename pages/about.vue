@@ -1,9 +1,7 @@
 <template>
-    <div>
-        This is about me.
-
-        <button @click="enableCustomLayout">Update layout</button>
-    </div>
+    <article class="prose dark:prose-invert prose-h1:text-2xl">
+        <ContentDoc path="/about" />
+    </article>
 </template>
 
 <script setup>
