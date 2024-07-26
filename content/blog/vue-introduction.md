@@ -1,4 +1,5 @@
 ---
+publishedAt: 2024-07-12 17:15:00
 description: A beginner's guide to getting started with Vue 3.
 image: /images/vue-logo.webp
 head:
