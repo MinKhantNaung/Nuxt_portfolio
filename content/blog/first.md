@@ -1,5 +1,6 @@
 ---
 publishedAt: 2024-06-12 17:15:00
+toc: true
 title: 'Title of the page'
 description: 'meta description of the page'
 head:
