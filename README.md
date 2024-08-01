@@ -1,4 +1,4 @@
-See here [Deployed in vercel(https://portfolio-learn-nuxt-jdiz.vercel.app/)]
+See here [Deployed in vercel](https://portfolio-learn-nuxt-jdiz.vercel.app/)
 
 # Nuxt 3 Minimal Starter
 
