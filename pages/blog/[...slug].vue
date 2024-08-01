@@ -32,6 +32,9 @@
 const activeId = ref(null)
 
 onMounted(() => {
+
+    let elements = []
+
     const callback = (entries) => {
         console.log(entries) // everytime you scroll, 
         for (const entry of entries) {
@@ -47,11 +50,13 @@ onMounted(() => {
         threshold: 0.5 
     })
 
-    const elements = document.querySelectorAll('h2, h3')
+    setTimeout(() => {
+        elements = document.querySelectorAll('h2, h3')
 
-    for (const element of elements) {
-        observer.observe(element)
-    }
+        for (const element of elements) {
+            observer.observe(element)
+        }
+    }, 150)
 
     onBeforeUnmount(() => {
         for (const element of elements) {
