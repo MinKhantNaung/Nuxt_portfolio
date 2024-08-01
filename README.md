@@ -1,4 +1,4 @@
-See here [Deployed In Vercel](https://portfolio-learn-nuxt-jdiz.vercel.app/){:target="_blank"}
+See here [Deployed In Vercel](https://portfolio-learn-nuxt-jdiz.vercel.app/)
 
 # Nuxt 3 Minimal Starter
 
